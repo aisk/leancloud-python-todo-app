@@ -21,7 +21,13 @@ app = Flask(__name__)
 
 
 class Item(Object):
-    pass
+    @property
+    def content(self):
+        return self.get('content')
+
+    @content.setter
+    def set_content(self, value):
+        return self.set('content', value)
 
 
 @app.route('/', methods=['GET'])
