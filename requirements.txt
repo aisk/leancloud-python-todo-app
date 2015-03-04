@@ -1,0 +1,3 @@
+flask
+-e git+https://github.com/leancloud/python-sdk.git#egg=leancloud
+-e git+https://github.com/leancloud/cloudcode-python-sdk.git#egg=cloudcode
