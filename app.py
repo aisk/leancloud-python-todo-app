@@ -1,7 +1,7 @@
 # coding: utf-8
 
 import logging
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG)  # NOQA
 
 import cloudcode
 import leancloud
